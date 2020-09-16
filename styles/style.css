@@ -31,6 +31,13 @@ body {
     font-size: 10px;
 }
 
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -60,4 +67,34 @@ header {
     background-color: #0177C5 ;
     color: white;
     padding: 10px 30px;
+}
+
+#logo{
+    text-align: center;
+}
+
+#affiliates {
+    text-align: center;
+}
+#affiliates p{
+     display: inline;
+}
+#main-form{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+
+}
+.form-center{
+    text-align: center;
+}
+.form-input input{
+    display: block;
+}
+#captcha-notice{
+    background-color: lightgray;
+    padding: 1rem 0;
+}
+footer{
+    text-align: center;
 }
