@@ -73,21 +73,55 @@ header {
     text-align: center;
 }
 
+.logo-primary {
+    width: 160px;
+}
+.affiliates-logo {
+    width: 25px;
+    padding-right: 4px;
+    vertical-align: middle;
+    
+   
+}
+
+#affiliates a {
+    text-decoration: none;
+    font-size: 1.9em;
+    color:#6C6D72 ;
+}
+
+
 #affiliates {
     text-align: center;
+   
 }
-#affiliates p{
-     display: inline;
-}
+
 #main-form{
     background-color: white;
     width: 500px;
     margin: 0 auto;
+    border: .5px solid lightgray;
 
 }
 .form-center{
     text-align: center;
 }
+
+.form-heading {
+    font-size: 2.1em;
+    padding-top: 15px;
+}
+.form-info {
+    font-size: 1.4em;
+    color: #6C6D72;
+    padding-top: 15px ;
+}
+.learn-more {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #0089D2;
+}
+
 .form-input input{
     display: block;
 }

@@ -17,46 +17,49 @@
     </header>
     
     <div id="logo">
-        <h3>INTUIT</h3>
+       <a href="#"><img class="logo-primary" src="images/logo-intuit.png" alt="logo"></a>
     </div>
     <section>
         <div id="affiliates">
-            <p>Mint</p>
-            <p>Quickbooks</p>
-            <p>turbotax</p>
+            <a href="#"><img class="affiliates-logo" src="images/mint.png" alt="mint">mint</a>
+            <a href="#"><img class="affiliates-logo" src="images/quickbooks.png" alt="quickbooks">quickbooks</a>
+            <a href="#"><img class="affiliates-logo" src="images/turbotax.png" alt="turbotax">turbotax</a>
         </div>
 
         <div id="main-form">
             <div class="form-center">
-                <h3>Create an Intuit account</h3>
-                <p>one account for everything Intuit, including Mint</p>
-                <a href="">Learn more</a>
+                <h3 class="form-heading">Create an Intuit account</h3>
+                <p class="form-info">one account for everything Intuit, including Mint</p>
+                <a class="learn-more" href="#">Learn more</a>
             </div>
-            <form action="" class="form-input container">
-                <label for="email">
-                    Email Address
-                    <input type="text" name="email" id="email">
-                </label>
-                <label for="phone">
-                    Phone (reccomended)
-                    <input type="tel" name="phone" id="phone">
-                </label>
-                <label for="password">
-                    Password
-                    <input type="password" name="password" id="password">
-                </label>
-                <div class="form-center">
-                    <button name="submit">
-                        <i class="fas fa-unlock-alt"></i> Create Account
-                    </button>
-                    <p>By clicking Create account, you agree to our
-                    <a href="">Terms</a> and have read and acknowledge 
-                    our <a href="">Privacy Statement.</a></p>
-                    <div id="captcha-notice">
-                        <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use.</a></p>
+            <form action="" class="form-input">
+                <div class="container">
+                    <label for="email">
+                        Email Address
+                        <input type="text" name="email" id="email">
+                    </label>
+                    <label for="phone">
+                        Phone (reccomended)
+                        <input type="tel" name="phone" id="phone">
+                    </label>
+                    <label for="password">
+                        Password
+                        <input type="password" name="password" id="password">
+                    </label>
+                    <div class="form-center">
+                        <button name="submit">
+                            <i class="fas fa-unlock-alt"></i> Create Account
+                        </button>
+                        <p>By clicking Create account, you agree to our
+                        <a href="">Terms</a> and have read and acknowledge 
+                        our <a href="">Privacy Statement.</a></p>
                     </div>
                 </div>
+                <div id="captcha-notice" class="form-center">
+                    <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use.</a></p>
+                </div>
             </form>
+            
            
         </div>
     </section>
