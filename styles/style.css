@@ -122,9 +122,21 @@ header {
     color: #0089D2;
 }
 
-.form-input input{
+#form-input input{
     display: block;
+    margin-top: .3rem;
+    margin-bottom: 1.2rem;
 }
+
+#submit{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: #0177C5;
+}
+
 #captcha-notice{
     background-color: lightgray;
     padding: 1rem 0;
