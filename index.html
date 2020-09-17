@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mint Form</title>
+    <link rel="stylesheet" href="styles/cssreset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -38,29 +39,33 @@
                     <a class="learn-more" href="#">Learn more</a>
                 </div>
             </div>
+<<<<<<< HEAD
             <form action="post" id="form-input">
+=======
+            <form action="POST" id="form-input">
+>>>>>>> dce4ab47b81b87ed300aa3259a1018f1942603f4
                 <div class="container">
-                    <label for="email">
-                        <div class="form-group">
-                            Email Address
-                            <input type="text" name="email" id="email">
-                        </div>
-                    </label>
-                    <label for="phone">
-                        <div class="form-group">
-                            Phone (reccomended)
-                            <input type="number" name="phone" id="phone">
-                            <p>Standard call, messaging or data rates may apply.</p>
-                        </div>
-                    </label>
-                    <label for="password">
-                        <div class="form-group">
-                            Password
-                            <input type="password" name="password" id="password">
-                        </div>
-                    </label>
+                    <div class="form-group">
+                        <label for="email">
+                                Email Address
+                                <input type="text" name="email" id="email">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">
+                                Phone (reccomended)
+                                <input type="number" name="phone" id="phone">
+                        </label>
+                        <p>Standard call, messaging or data rates may apply.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">
+                                Password
+                                <input type="password" name="password" id="password">
+                        </label>
+                    </div>
                     <div class="form-center">
-                        <button name="submit" id="submit">
+                        <button name="submit" id="submit" type="submit">
                             <i class="fas fa-unlock-alt"></i> Create Account
                         </button>
                         <p class="acc-create">By clicking Create account, you agree to our
@@ -83,7 +88,6 @@
             ProConnect and Mint are registered trademarks of Intuit Inc.</p>
         <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
-    <button id="privacy">Privacy Settings</button>
+    <button id="privacy" type="button">Privacy Settings</button>
 </body>
-
 </html>
