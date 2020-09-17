@@ -12,8 +12,8 @@ a {
 }
 
 .container {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -24,7 +24,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 10px 30px;
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 
 .acc-info {
@@ -54,7 +54,7 @@ header {
 }
 
 .logo-primary {
-  width: 160px;
+  width: 250px;
 }
 
 .affiliates-logo {
@@ -65,6 +65,7 @@ header {
 
 footer a {
   margin: 0 10px;
+  color: grey;
 }
 
 footer p {
@@ -75,6 +76,7 @@ footer p {
   text-decoration: none;
   font-size: 1.9em;
   color: #6c6d72;
+  margin: 0 5px;
 }
 
 #affiliates {
@@ -84,7 +86,7 @@ footer p {
 
 #main-form {
   background-color: white;
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
   border: 0.5px solid lightgray;
 }
@@ -94,8 +96,10 @@ footer p {
 }
 
 .form-heading {
-  font-size: 2.1em;
+  font-weight: lighter;
+  font-size: 2.3em;
   padding-top: 35px;
+  color: grey;
 }
 
 .form-info {
@@ -119,6 +123,7 @@ footer p {
   width: 100%;
   font-size: 1.2em;
   height: 2em;
+  margin-top: 1rem;
 }
 
 .form-group {
@@ -142,24 +147,30 @@ footer p {
 }
 
 label {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  color: grey;
 }
 
 .acc-create {
-  padding-bottom: 30px;
+  padding: 0 25px 30px;
   font-style: italic;
   color: grey;
 }
 
 #captcha-notice {
   background-color: #eceef1;
-  padding: 1rem 0;
+  padding: 2rem 0;
   color: grey;
 }
 
 footer {
   text-align: center;
   margin-top: 20px;
+  color: grey;
+}
+
+#terms {
+  padding-bottom: 25px;
 }
 
 #privacy {
