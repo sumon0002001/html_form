@@ -168,15 +168,3 @@ footer {
 #terms {
   padding-bottom: 25px;
 }
-
-#privacy {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-right: 10rem;
-  background-color: grey;
-  color: white;
-  padding: 1rem;
-  border-radius: 4px;
-  font-size: 1.3em;
-}
