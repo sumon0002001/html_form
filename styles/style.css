@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+.flex {
+  display: flex;
+}
+
 .container {
   padding-right: 60px;
   padding-left: 60px;
@@ -19,7 +23,6 @@ a {
 }
 
 nav {
-  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
@@ -28,11 +31,14 @@ nav {
 }
 
 .acc-info {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding-right: 10px;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 .user-id {
@@ -47,10 +53,6 @@ nav {
   background-color: #0177c5;
   color: white;
   padding: 10px 30px;
-}
-
-#logo {
-  text-align: center;
 }
 
 .logo-primary {
@@ -80,7 +82,6 @@ footer p {
 }
 
 #affiliates {
-  text-align: center;
   padding-bottom: 1.5rem;
 }
 
@@ -89,10 +90,6 @@ footer p {
   width: 700px;
   margin: 0 auto;
   border: 0.5px solid lightgray;
-}
-
-.form-center {
-  text-align: center;
 }
 
 .form-heading {
@@ -164,7 +161,6 @@ label {
 }
 
 footer {
-  text-align: center;
   margin-top: 20px;
   color: grey;
 }
