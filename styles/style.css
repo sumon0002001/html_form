@@ -42,7 +42,6 @@ a {
     padding-left: 30px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 header {
@@ -88,8 +87,6 @@ header {
     width: 25px;
     padding-right: 4px;
     vertical-align: middle;
-
-
 }
 
 #affiliates a {
@@ -98,11 +95,9 @@ header {
     color: #6C6D72;
 }
 
-
 #affiliates {
     text-align: center;
     padding-bottom: 1.5rem;
-
 }
 
 #main-form {
@@ -110,13 +105,10 @@ header {
     width: 500px;
     margin: 0 auto;
     border: .5px solid lightgray;
-
 }
 
 .form-center {
     text-align: center;
-
-
 }
 
 .form-heading {
@@ -142,7 +134,6 @@ header {
 
 #form-input input {
     display: block;
-
     width: 100%;
     font-size: 1.2em;
     height: 2em;
@@ -191,7 +182,6 @@ footer {
 
 footer a {
     margin: 0 10px;
-
 }
 
 footer p {
