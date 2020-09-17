@@ -27,8 +27,14 @@ time, mark, audio, video {
 body {
     margin: 0;
     padding: 0;
-    background-color:#ECEEF1  ;
+    background-color: #ECEEF1;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #0089D2;
+    text-decoration: none;
 }
 
 .container {
@@ -36,6 +42,7 @@ body {
     padding-left: 30px;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 header {
@@ -52,7 +59,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-right: 10px ;
+    padding-right: 10px;
 }
 
 .user-id {
@@ -64,73 +71,94 @@ header {
     text-decoration: none;
     border: 1px solid black;
     border-radius: 4px;
-    background-color: #0177C5 ;
+    background-color: #0177C5;
     color: white;
     padding: 10px 30px;
 }
 
-#logo{
+#logo {
     text-align: center;
 }
 
 .logo-primary {
     width: 160px;
 }
+
 .affiliates-logo {
     width: 25px;
     padding-right: 4px;
     vertical-align: middle;
-    
-   
+
+
 }
 
 #affiliates a {
     text-decoration: none;
     font-size: 1.9em;
-    color:#6C6D72 ;
+    color: #6C6D72;
 }
 
 
 #affiliates {
     text-align: center;
-   
+    padding-bottom: 1.5rem;
+
 }
 
-#main-form{
+#main-form {
     background-color: white;
     width: 500px;
     margin: 0 auto;
     border: .5px solid lightgray;
 
 }
-.form-center{
+
+.form-center {
     text-align: center;
-    
-    
+
+
 }
 
 .form-heading {
     font-size: 2.1em;
-    padding-top: 15px;
+    padding-top: 35px;
 }
+
 .form-info {
     font-size: 1.4em;
     color: #6C6D72;
-    padding-top: 15px ;
+    padding: 20px 0;
 }
+
 .learn-more {
     text-decoration: none;
-    font-size: 1.2em;
     color: #0089D2;
+    display: inline-block;
 }
 
-#form-input input{
+#form-input {
+    margin-top: 1rem;
+}
+
+#form-input input {
     display: block;
-    margin-top: .3rem;
-    margin-bottom: 1.2rem;
+
+    width: 100%;
+    font-size: 1.2em;
+    height: 2em;
 }
 
-#submit{
+.form-group {
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+}
+
+.form-group p {
+    font-size: .8em;
+    padding-top: 10px;
+}
+
+#submit {
     margin-bottom: 1.5rem;
     padding: 1rem;
     color: white;
@@ -143,29 +171,41 @@ header {
 label {
     font-size: 1.2em;
 }
-input {
-    width: 100%;
-    font-size: 1.2em;
-}
 
-
-.acc-create{
+.acc-create {
     padding-bottom: 30px;
+    font-style: italic;
+    color: grey;
 }
 
-#captcha-notice{
-    background-color: lightgray;
+#captcha-notice {
+    background-color: #ECEEF1;
     padding: 1rem 0;
+    color: grey;
 }
-footer{
+
+footer {
     text-align: center;
     margin-top: 20px;
 }
 
 footer a {
     margin: 0 10px;
-    
+
 }
+
 footer p {
     margin-top: 10px;
+}
+
+#privacy {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10rem;
+    background-color: grey;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1.3em;
 }
