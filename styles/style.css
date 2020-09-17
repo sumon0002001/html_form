@@ -18,7 +18,7 @@ a {
   margin-left: auto;
 }
 
-header {
+nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
