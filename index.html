@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint Form</title>
+    <link rel="stylesheet" href="styles/cssreset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="flex">
+        <div class="acc-info flex">
+            <p>Already have an Intuit account?</p>
+            <a class="user-id" href="#">I forgot my User ID or Password</a>
+        </div>
+        <a class="button-signin" href="#"><i class="fas fa-unlock-alt"></i> Sign In</a>
+    </nav>
+
+    <div id="logo" class="text-align-center">
+        <a href="#"><img class="logo-primary" src="images/logo-intuit.png" alt="logo"></a>
+    </div>
+
+    <main>
+        <div id="affiliates" class="text-align-center">
+            <a href="#"><img class="affiliates-logo" src="images/mint.png" alt="mint">mint</a>
+            <a href="#"><img class="affiliates-logo" src="images/quickbooks.png" alt="quickbooks">quickbooks</a>
+            <a href="#"><img class="affiliates-logo" src="images/turbotax.png" alt="turbotax">turbotax</a>
+        </div>
+
+        <div id="main-form">
+            <div class="text-align-center">
+                <h3 class="form-heading">Create an Intuit account</h3>
+                <div class="form-info">
+                    <p>One account for everything Intuit, including Mint</p>
+                    <a class="learn-more" href="#">Learn more</a>
+                </div>
+            </div>
+
+
+            <form action="POST" id="form-input">
+
+                <div class="container">
+                    <div class="form-group">
+                        <label for="email">
+                                Email Address
+                                <input type="email" name="email" id="email">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">
+                                Phone (reccomended)
+                                <input type="tel" name="phone" id="phone">
+                        </label>
+                        <p>Standard call, messaging or data rates may apply.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">
+                                Password
+                                <input type="password" name="password" id="password">
+                        </label>
+                    </div>
+                    <div class="text-align-center">
+                        <button name="submit" id="submit" type="submit">
+                            <i class="fas fa-unlock-alt"></i> Create Account
+                        </button>
+                        <p class="acc-create">By clicking Create account, you agree to our
+                            <a href="">Terms</a> and have read and acknowledge
+                            our <a href="">Privacy Statement.</a></p>
+                    </div>
+                </div>
+                <div id="captcha-notice" class="text-align-center">
+                    <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use.</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="text-align-center">
+        <a href="">Legal</a>
+        <a href="">Privacy</a>
+        <a href="">Security</a>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
+            ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p id="terms">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
+</body>
+</html>
